@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f3ae163-e1df-48e2-b3b4-4c1cf24ae4f1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby.railstutorial.org.iml" afterPath="$PROJECT_DIR$/.idea/ruby.railstutorial.org.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2.1/demo_app/config/routes.rb" afterPath="$PROJECT_DIR$/2.1/demo_app/config/routes.rb" />
     </list>
     <ignored path="ruby.railstutorial.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="micropost.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/micropost.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.1/sample_app/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="92" selection-end="92" vertical-scroll-proportion="0.06017699">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+            <state line="33" column="38" selection-start="729" selection-end="729" vertical-scroll-proportion="0.99292034">
               <folding />
             </state>
           </provider>
@@ -55,6 +46,7 @@
         <option value="$PROJECT_DIR$/1.2.3/first_app/Gemfile" />
         <option value="$PROJECT_DIR$/2.1/demo_app/app/models/user.rb" />
         <option value="$PROJECT_DIR$/2.1/demo_app/app/models/micropost.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/Gemfile" />
       </list>
     </option>
   </component>
@@ -131,77 +123,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2.1" />
+              <option name="myItemId" value="3.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2.1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby.railstutorial.org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1.2.3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="first_app" />
+              <option name="myItemId" value="sample_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,16 +348,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/micropost.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+        <state line="5" column="35" selection-start="150" selection-end="150" vertical-scroll-proportion="0.15044248">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/micropost.rb">
+    <entry file="file://$PROJECT_DIR$/2.1/demo_app/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="92" selection-end="92" vertical-scroll-proportion="0.06017699">
+        <state line="2" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="0.06017699">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="729" selection-end="729" vertical-scroll-proportion="0.99292034">
           <folding />
         </state>
       </provider>
