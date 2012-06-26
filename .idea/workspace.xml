@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f3ae163-e1df-48e2-b3b4-4c1cf24ae4f1" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Sites\ruby.railstutorial.org\3.1\sample_app\public\hello.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Sites\ruby.railstutorial.org\3.1\sample_app\spec\requests\helpers\application_helper_spec.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/spec/helpers/application_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ruby.railstutorial.org.iml" afterPath="$PROJECT_DIR$/.idea/ruby.railstutorial.org.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/spec/requests/static_pages_spec.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/spec/requests/static_pages_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/Gemfile.lock" afterPath="$PROJECT_DIR$/3.1/sample_app/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/app/controllers/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/app/helpers/sessions_helper.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/app/helpers/sessions_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/app/models/user.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/config/routes.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/db/schema.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.1/sample_app/spec/requests/authentication_pages_spec.rb" afterPath="$PROJECT_DIR$/3.1/sample_app/spec/requests/authentication_pages_spec.rb" />
     </list>
     <ignored path="ruby.railstutorial.org.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +33,17 @@
     <favorites_list name="ruby.railstutorial.org" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="sessions_helper.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/helpers/sessions_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="21" selection-start="489" selection-end="489" vertical-scroll-proportion="0.46101695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -40,15 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/config/routes.rb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/spec/factories.rb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/app/views/users/new.html.erb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/app/views/shared/_error_messages.html.erb" />
-        <option value="$PROJECT_DIR$/3.1/sample_app/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/3.1/sample_app/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/3.1/sample_app/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/3.1/sample_app/app/helpers/users_helper.rb" />
@@ -56,13 +63,22 @@
         <option value="$PROJECT_DIR$/3.1/sample_app/spec/requests/user_pages_spec.rb" />
         <option value="$PROJECT_DIR$/3.1/sample_app/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/3.1/sample_app/spec/requests/static_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/config/routes.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/app/views/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/spec/requests/authentication_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/db/migrate/20120626193221_add_remember_token_to_users.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/3.1/sample_app/app/helpers/sessions_helper.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="567" />
+    <option name="x" value="652" />
     <option name="y" value="1" />
-    <option name="width" value="824" />
+    <option name="width" value="739" />
     <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -285,6 +301,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby.railstutorial.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby.railstutorial.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby.railstutorial.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby.railstutorial.org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -454,6 +518,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -673,13 +741,13 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="59" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="60" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="565" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="554" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="565" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="59" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="58" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
   </component>
   <component name="RecentsManager">
@@ -845,14 +913,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="1" width="824" height="764" extended-state="0" />
-    <editor active="false" />
+    <frame x="652" y="1" width="739" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33289474" sideWeight="0.67038214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33777776" sideWeight="0.67038214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -924,47 +992,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="82" selection-start="373" selection-end="373" vertical-scroll-proportion="0.20169492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="206" selection-end="206" vertical-scroll-proportion="0.32409012" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="179" selection-end="179" vertical-scroll-proportion="0.2109929" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/helpers/static_pages_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.43220338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -979,35 +1007,85 @@
         <state line="14" column="52" selection-start="258" selection-end="258" vertical-scroll-proportion="0.3946932" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7745762" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/support/utilities.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="32" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/helpers/application_helper_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/requests/static_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="2" selection-start="1560" selection-end="1560" vertical-scroll-proportion="1.6338983">
+        <state line="60" column="2" selection-start="1560" selection-end="1560" vertical-scroll-proportion="1.6338983" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/views/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="58" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="216" selection-end="216" vertical-scroll-proportion="0.23050848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/requests/authentication_pages_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="59" selection-start="494" selection-end="494" vertical-scroll-proportion="0.45254236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="105" selection-end="105" vertical-scroll-proportion="0.11525424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/db/migrate/20120626193221_add_remember_token_to_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="165" selection-end="165" vertical-scroll-proportion="0.17288135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="25" selection-start="860" selection-end="860" vertical-scroll-proportion="0.4898305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="4" selection-start="889" selection-end="889" vertical-scroll-proportion="0.8067797">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.1/sample_app/app/helpers/sessions_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="489" selection-end="489" vertical-scroll-proportion="0.46101695">
           <folding />
         </state>
       </provider>
