@@ -12,6 +12,7 @@
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
   has_secure_password
+  has_many :microposts, dependent: :destroy
 
   before_save { |user| user.email = email.downcase }
   before_save :create_remember_token
@@ -31,5 +32,10 @@ class User < ActiveRecord::Base
       # the assignment would create a local variable called remember_token, which isn’t what we want at
       # all. Using self ensures that assignment sets the user’s remember_token so that it will be written
       # to the database along with the other attributes when the user is saved.
+
+  def feed
+    # This is preliminary. See "Following users" for the full implementation.
+    Micropost.where("user_id = ?", id)
+  end
 
 end
